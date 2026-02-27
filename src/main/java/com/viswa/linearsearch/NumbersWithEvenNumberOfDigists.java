@@ -2,7 +2,7 @@ package com.viswa.linearsearch;
 
 public class NumbersWithEvenNumberOfDigists {
     public static void main(String[] args) {
-        int nums[] = {234, 63, 74, 234, 6457, 8434, 5752, 2457, 46};
+        int nums[] = {234, 63, 74, 234, 6457, 8434, 5752, 2457, 46,24};
         int countEven = 0;
         for (int i = 0; i < nums.length; i++) {
             int num = lengthNum(nums[i]);
