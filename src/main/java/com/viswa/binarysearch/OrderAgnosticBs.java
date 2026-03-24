@@ -6,7 +6,6 @@ public class OrderAgnosticBs {
 //        int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
         int arr[] = {90, 75, 43, 43, 42, 35, 22, 21, 19};
         int target = 42;
-        int index = 0;
         int start = 0;
         int end = arr.length - 1;
         if (arr[start] < arr[end]) {
